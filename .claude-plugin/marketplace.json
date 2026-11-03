@@ -1,0 +1,21 @@
+{
+  "name": "chinese-report-voice",
+  "owner": {
+    "name": "zhanguoliang715"
+  },
+  "metadata": {
+    "description": "中文报告体文风：先判文体、六条语体规则、文风扫查与 PDF 排版体检两道门禁",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "chinese-report-voice",
+      "description": "给评委、领导、投资人看的中文文档：先判文体，再动笔，最后跑门禁",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    }
+  ]
+}
