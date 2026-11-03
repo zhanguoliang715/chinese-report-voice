@@ -4,6 +4,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.9%2B-3776AB)
 ![License](https://img.shields.io/badge/license-MIT-yellow)
+![spec](https://img.shields.io/badge/agentskills.io-spec%20valid-2E7D32)
 
 ## 它解决什么
 
@@ -47,6 +48,18 @@ python scripts/check_pdf_layout.py 报告.pdf      # 也支持 --margin 2.6 --mi
 | `check_pdf_layout.py` | 排版四项：纸张是否 A4、薄页与空白页、表格是否越出版心、目录页码是否指对 | 0 通过 / 非 0 有问题 |
 
 **先跑门禁再交付**。退出码非 0 不许交。
+
+## 用插件安装（一条命令，已实测）
+
+```bash
+claude plugin marketplace add zhanguoliang715/chinese-report-voice
+claude plugin install chinese-report-voice@chinese-report-voice
+```
+
+> 本机 git 若报 `CRYPT_E_NO_REVOCATION_CHECK`（证书吊销列表查不到），命令前加 `GIT_SSL_NO_VERIFY=1`。
+> 这是本机 TLS 配置问题，与仓库无关；换台机器通常直接可用。
+
+不想装插件也行，下面的手动方式是等价的。
 
 ## 上手
 
