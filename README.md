@@ -1,5 +1,8 @@
 # chinese-report-voice
 
+<p align="right">[简体中文](README.md) | [English](README.en.md)</p>
+
+
 **给评委、领导、投资人看的中文文档，先判文体再动笔。报告体、技术文档、口播稿是三套语体，混了就白写。附两个能跑的门禁。**
 
 ![Python](https://img.shields.io/badge/python-3.9%2B-3776AB)
